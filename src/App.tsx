@@ -1,10 +1,17 @@
 import React from 'react';
+import TodoContextApi from './components/contextApiComponents/TodoContextApi';
+import TodoProvider from './components/contextApiComponents/TodoProvider';
+import Header from './components/Header';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Add TODO List!!
+      <Header />
+      <TodoProvider>
+              <TodoContextApi />
+      </TodoProvider>
     </div>
   );
 }
