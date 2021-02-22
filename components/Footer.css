@@ -1,0 +1,6 @@
+.footer {
+    background-color: brown;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}

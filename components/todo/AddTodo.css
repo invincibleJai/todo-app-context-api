@@ -1,0 +1,14 @@
+.addTodoContainer {
+    padding: 10px;
+    margin: 10px;
+}
+
+.controlContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.controlSpacing {
+    padding: 10px;
+    margin: 5px;
+}

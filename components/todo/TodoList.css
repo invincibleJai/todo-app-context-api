@@ -1,0 +1,16 @@
+.todoListContainer {
+    padding: 10px;
+    margin: 10px;
+    background-color: #cccccc;
+}
+
+.listItemContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.listItems {
+    padding: 10px;
+    margin: 5px;
+}
